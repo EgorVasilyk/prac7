@@ -41,11 +41,7 @@ public class HomeController {
                           @RequestParam(name = "value", required = false, defaultValue = "0") double value,
     @RequestParam(name = "type", required = false, defaultValue = "") String type)
     {
-<<<<<<< HEAD
         if (type.equals("rub, rub"))model.addAttribute("res", value * 1);
-=======
-        if (.equals("rub, rub"))model.addAttribute("res", value * 1);
->>>>>>> 9b8ef21 (prac7)
         else if (type.equals("kzt,kzt"))model.addAttribute("res", value * 1);
         else if (type.equals("usd,usd"))model.addAttribute("res", value * 1);
         else if (type.equals("rub,kzt"))model.addAttribute("res", value * 5.35);
