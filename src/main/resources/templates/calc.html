@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Калькулятор</h1>
+    <form method="post" action="/calc">
+        <input type="number" name="A">
+        <input type="number" name="B">
+        <button type="submit" name="act" value="+">+</button>
+        <button type="submit" name="act" value="-">-</button>
+        <button type="submit" name="act" value="*">*</button>
+        <button type="submit" name="act" value="/">/</button>
+        <p th:text="${'Результат:'+C}">
+    </form>
+    <form method="get" action="/home">
+        <input type="submit" value="На главную">
+    </form>
+</body>
+</html>
