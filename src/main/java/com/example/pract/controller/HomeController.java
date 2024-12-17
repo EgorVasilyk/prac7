@@ -7,11 +7,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
-<<<<<<< HEAD
-public  HomeController {
-=======
+
 public class HomeController {
->>>>>>> 9b8ef21 (prac7)
     @GetMapping("/home")
     String gethome(){return "home";}
 
